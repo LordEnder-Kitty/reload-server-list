@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "reload_server_list",
+  "version": "${version}",
+  "name": "Reload Server List",
+  "description": "Ctrl+R reloads server selection screen",
+  "authors": [ "LordEnder_Kitty" ],
+  "license": "MIT",
+  "icon": "assets/reload_server_list/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [ "net.enderkitty.fabric.ReloadServerListFabric" ]
+  },
+  "mixins": [ "reload_server_list.mixins.json" ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*",
+    "java": ">=21",
+    "architectury": "*"
+  }
+}

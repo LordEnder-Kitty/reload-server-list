@@ -1,0 +1,38 @@
+modLoader = "javafml"
+loaderVersion = "*"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "reload_server_list"
+version = "${version}"
+displayName = "Reload Server List"
+authors = "LordEnder_Kitty"
+description = '''
+Ctrl+R reloads server selection screen
+'''
+logoFile = "assets/reload_server_list/icon.png"
+
+[[dependencies.reload_server_list]]
+modId = "neoforge"
+type = "required"
+versionRange = "*"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.reload_server_list]]
+modId = "minecraft"
+type = "required"
+versionRange = "*"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.reload_server_list]]
+modId = "architectury"
+type = "required"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[mixins]]
+config = "reload_server_list.mixins.json"
