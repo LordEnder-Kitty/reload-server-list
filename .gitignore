@@ -10,3 +10,7 @@
 /neoforge/.gradle/
 /neoforge/build/
 /neoforge/build/classes/java/main/
+/.idea/
+/common/run/
+/fabric/run/
+/neoforge/run/
