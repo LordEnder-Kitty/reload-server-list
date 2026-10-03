@@ -14,7 +14,7 @@
   "mixins": [ "reload_server_list.mixins.json" ],
   "depends": {
     "fabricloader": "*",
-    "minecraft": "*",
+    "minecraft": ">=26.3",
     "java": ">=25",
     "architectury": "*"
   }

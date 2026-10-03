@@ -11,7 +11,7 @@ authors = "LordEnder_Kitty"
 description = '''
 Ctrl+R reloads server selection screen
 '''
-logoFile = "assets/reload_server_list/icon.png"
+iconFile = "assets/reload_server_list/icon.png"
 
 [[dependencies.reload_server_list]]
 modId = "neoforge"
@@ -23,7 +23,7 @@ side = "CLIENT"
 [[dependencies.reload_server_list]]
 modId = "minecraft"
 type = "required"
-versionRange = "*"
+versionRange = "[26.3,)"
 ordering = "NONE"
 side = "BOTH"
 
